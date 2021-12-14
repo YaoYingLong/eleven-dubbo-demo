@@ -8,7 +8,7 @@ import org.apache.dubbo.rpc.RpcContext;
 import java.util.concurrent.TimeUnit;
 
 
-//@Service(version = "timeout", timeout = 6000)
+@Service(version = "timeout", timeout = 6000)
 public class TimeoutDemoService implements DemoService {
 
     @Override

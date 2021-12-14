@@ -7,7 +7,7 @@ import org.apache.dubbo.rpc.RpcContext;
 
 import java.util.concurrent.CompletableFuture;
 
-//@Service(version = "async")
+@Service(version = "async")
 public class AsyncDemoService implements DemoService {
 
     @Override

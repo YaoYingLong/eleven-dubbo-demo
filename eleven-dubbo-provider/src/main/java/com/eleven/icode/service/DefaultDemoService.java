@@ -5,7 +5,7 @@ import org.apache.dubbo.common.URL;
 import org.apache.dubbo.config.annotation.Service;
 import org.apache.dubbo.rpc.RpcContext;
 
-//@Service(version = "default")
+@Service(version = "default")
 public class DefaultDemoService implements DemoService {
     @Override
     public String sayHello(String name) {
